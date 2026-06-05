@@ -47,7 +47,7 @@ const FALLBACK_DATA = {
   "modules": [
     {
       "id": "module-1",
-      "title": "Bài tập 1 - Bài 1: Máy tính và các thiết bị ngoại vi",
+      "title": "Bài 1 - Bài tập 1: Máy tính và các thiết bị ngoại vi",
       "role": "Nền tảng công nghệ số",
       "overview": "Tìm hiểu cấu trúc tệp tin, phân chia quản lý dữ liệu lưu trữ và thực hành các thao tác cơ bản trên Hệ điều hành Windows nhằm quản trị dữ liệu học tập cá nhân một cách khoa học.",
       "insights": "Việc tổ chức thư mục học tập khoa học giúp tối ưu hóa thời gian tra cứu và bảo vệ an toàn dữ liệu số khỏi thất lạc. Biết cách sử dụng phím tắt giúp gia tăng 40% hiệu suất quản lý tệp tin hàng ngày.",
@@ -75,7 +75,7 @@ const FALLBACK_DATA = {
     },
     {
       "id": "module-2",
-      "title": "Bài tập 2 - Bài 2: Khai thác dữ liệu và thông tin",
+      "title": "Bài 2 - Bài tập 2: Khai thác dữ liệu và thông tin",
       "role": "Kỹ năng tìm kiếm và đánh giá thông tin",
       "overview": "Thực hành tra cứu, đánh giá chất lượng học thuật và độ tin cậy của 10 nguồn tài liệu nghiên cứu phục vụ đề tài nghiên cứu 'Tối ưu hóa kiến trúc SoC cho AI trên thiết bị Edge' bằng thang đánh giá tiêu chuẩn.",
       "insights": "Trong thời đại quá tải thông tin hiện nay, bộ lọc tư duy phê phán chính là chìa khóa. Việc áp dụng tiêu chí chuẩn hóa giúp phân biệt rõ giữa tri thức khoa học đáng tin cậy và tin giả hay thông tin rác.",
@@ -103,7 +103,7 @@ const FALLBACK_DATA = {
     },
     {
       "id": "module-3",
-      "title": "Bài tập 2 - Bài 3: Tổng quan về trí tuệ nhân tạo",
+      "title": "Bài 3 - Bài tập 2: Tổng quan về trí tuệ nhân tạo",
       "role": "Hiểu và ứng dụng AI",
       "overview": "Khám phá nguyên lý hoạt động của trí tuệ nhân tạo, thiết lập kỹ năng Prompt Engineering chuyên nghiệp phục vụ học tập (tóm tắt văn bản, giải thích khái niệm toán Giải tích 2, tạo câu hỏi ôn tập).",
       "insights": "AI không phải là chiếc đũa thần tự động hóa tất cả, mà là một công cụ khuếch đại tư duy. Kết quả đầu ra của AI phụ thuộc trực tiếp vào chất lượng câu lệnh (prompt) và ngữ cảnh mà chúng ta cung cấp.",
@@ -131,7 +131,7 @@ const FALLBACK_DATA = {
     },
     {
       "id": "module-4",
-      "title": "Bài tập 3 - Bài 4: Giao tiếp và hợp tác trong môi trường số",
+      "title": "Bài 4 - Bài tập 3: Giao tiếp và hợp tác trong môi trường số",
       "role": "Hợp tác hiệu quả trong môi trường số",
       "overview": "Ứng dụng các công cụ cộng tác trực tuyến hiện đại (ClickUp, Google Docs, Google Drive, Discord) nhằm xây dựng quy trình làm việc nhóm trực quan, khoa học trong học tập.",
       "insights": "Hợp tác số không đơn thuần là nhắn tin qua Zalo hay Zoom, mà là xây dựng một hệ điều hành công việc minh bạch nơi mọi thành viên đều hiểu rõ tiến độ, vai trò và trách nhiệm của mình.",
@@ -159,7 +159,7 @@ const FALLBACK_DATA = {
     },
     {
       "id": "module-5",
-      "title": "Bài tập 2 - Bài 5: Sáng tạo nội dung số",
+      "title": "Bài 5 - Bài tập 2: Sáng tạo nội dung số",
       "role": "Biến ý tưởng thành sản phẩm số",
       "overview": "Ứng dụng các công nghệ AI tạo sinh (ChatGPT, DALL-E, Canva AI) vào quy trình thiết kế và trực quan hóa thông tin thành ấn phẩm Infographic học thuật chuyên nghiệp.",
       "insights": "Nội dung số xuất sắc cần có sự cân bằng hoàn hảo giữa tính thẩm mỹ nghệ thuật và khả năng truyền đạt thông điệp rõ ràng. Thiết kế tốt là thiết kế giúp người xem tiếp nhận thông tin dễ dàng nhất.",
@@ -187,7 +187,7 @@ const FALLBACK_DATA = {
     },
     {
       "id": "module-6",
-      "title": "Bài tập 4 - Bài 6: An toàn và liêm chính học thuật trong môi trường số",
+      "title": "Bài 6 - Bài tập 4: An toàn và liêm chính học thuật trong môi trường số",
       "role": "Sử dụng AI và công nghệ có trách nhiệm",
       "overview": "Nghiên cứu chính sách đạo đức công nghệ của trường đại học (ĐHQGHN) và thiết lập bộ nguyên tắc cá nhân về sử dụng AI có trách nhiệm nhằm đảm bảo liêm chính học thuật.",
       "insights": "Sự tiện lợi của AI mang lại rủi ro rất lớn về liêm chính học thuật nếu lạm dụng sao chép không trích dẫn. Sử dụng AI có trách nhiệm là việc bảo vệ quyền sở hữu trí tuệ và khẳng định giá trị đóng góp độc lập của người học.",
@@ -1371,12 +1371,12 @@ function initCommandPalette() {
   const commands = [
     { title: "Đi tới Overview (Tổng quan)", subtitle: "Scroll to welcome & summary", icon: "📊", action: () => scrollToSection("control-center") },
     { title: "Đi tới Knowledge Map", subtitle: "Scroll to interactive map", icon: "🗺️", action: () => scrollToSection("knowledge-map") },
-    { title: "Bài tập 1 - Máy tính & Thiết bị ngoại vi", subtitle: "Module 1 details", icon: "📘", action: () => scrollToSection("module-1") },
-    { title: "Bài tập 2 - Khai thác Dữ liệu", subtitle: "Module 2 details", icon: "📘", action: () => scrollToSection("module-2") },
-    { title: "Bài tập 3 - Tổng quan Trí tuệ Nhân tạo", subtitle: "Module 3 details", icon: "📘", action: () => scrollToSection("module-3") },
-    { title: "Bài tập 4 - Giao tiếp và Hợp tác Số", subtitle: "Module 4 details", icon: "📘", action: () => scrollToSection("module-4") },
-    { title: "Bài tập 5 - Sáng tạo Nội dung Số", subtitle: "Module 5 details", icon: "📘", action: () => scrollToSection("module-5") },
-    { title: "Bài tập 6 - Đạo đức Học thuật & AI", subtitle: "Module 6 details", icon: "📘", action: () => scrollToSection("module-6") },
+    { title: "Bài 1 - Bài tập 1: Máy tính & Thiết bị ngoại vi", subtitle: "Module 1 details", icon: "📘", action: () => scrollToSection("module-1") },
+    { title: "Bài 2 - Bài tập 2: Khai thác Dữ liệu", subtitle: "Module 2 details", icon: "📘", action: () => scrollToSection("module-2") },
+    { title: "Bài 3 - Bài tập 2: Tổng quan Trí tuệ Nhân tạo", subtitle: "Module 3 details", icon: "📘", action: () => scrollToSection("module-3") },
+    { title: "Bài 4 - Bài tập 3: Giao tiếp và Hợp tác Số", subtitle: "Module 4 details", icon: "📘", action: () => scrollToSection("module-4") },
+    { title: "Bài 5 - Bài tập 2: Sáng tạo Nội dung Số", subtitle: "Module 5 details", icon: "📘", action: () => scrollToSection("module-5") },
+    { title: "Bài 6 - Bài tập 4: Đạo đức Học thuật & AI", subtitle: "Module 6 details", icon: "📘", action: () => scrollToSection("module-6") },
     { title: "Mở Document Hub (Tài liệu)", subtitle: "Notion preview hub", icon: "📂", action: () => scrollToSection("document-hub") },
     { title: "Xem Biểu đồ Kỹ năng (Radar)", subtitle: "Radar skill chart", icon: "⚡", action: () => scrollToSection("skills-center") },
     { title: "Xem Reflection (Tổng kết)", subtitle: "Learning maturity report", icon: "📝", action: () => scrollToSection("reflection") },

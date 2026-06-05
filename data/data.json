@@ -1,0 +1,242 @@
+{
+  "profile": {
+    "name": "Nguyễn Trường An",
+    "studentId": "25020440",
+    "class": "Nhóm 23",
+    "course": "Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo",
+    "avatar": "img/avt.jpg",
+    "status": "Hoàn thành 100% chương trình học tập",
+    "role": "Học viên xuất sắc & Nhà phát triển tương lai",
+    "email": "an.nt25020440@student.edu.vn",
+    "github": "https://github.com/nguyen-truong-an",
+    "linkedin": "https://linkedin.com/in/nguyen-truong-an"
+  },
+  "metrics": {
+    "assignments": 6,
+    "skillsCount": 7,
+    "progress": 100
+  },
+  "overview": {
+    "summary": "Tôi là một sinh viên đam mê công nghệ số và trí tuệ nhân tạo, luôn tìm cách ứng dụng các công nghệ mới nhất vào giải quyết các bài toán thực tiễn. Suốt quá trình tham gia học phần 'Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo', tôi đã phát triển tư duy hệ thống từ nền tảng máy tính cơ bản, khai thác thông tin, ứng dụng AI, hợp tác số, sáng tạo nội dung cho đến đạo đức học thuật. Hệ điều hành học tập (Digital OS) này chính là minh chứng sinh động nhất cho hành trình chuyển đổi số của bản thân tôi.",
+    "goals": [
+      "Làm chủ các công cụ tìm kiếm và đánh giá dữ liệu số chính xác.",
+      "Tối ưu hóa hiệu suất học tập bằng cách tích hợp mô hình AI và Prompt Engineering.",
+      "Xây dựng tư duy đạo đức số và liêm chính học thuật trong thời đại Generative AI."
+    ],
+    "aiRole": "AI không thay thế tư duy sáng tạo của tôi, mà đóng vai trò như một cộng sự đắc lực (Co-pilot), giúp giải phóng sức lao động thủ công và kích thích các ý tưởng giải pháp đột phá trong suốt chặng đường học tập học phần này.",
+    "journey": "Từ những buổi đầu bỡ ngỡ với các thiết bị ngoại vi và cấu trúc máy tính, tôi đã tiến bộ vượt bậc, biết cách ứng dụng các mô hình ngôn ngữ lớn (LLMs), thiết lập quy trình Kanban để làm việc nhóm, thiết kế các ấn phẩm số có tính thẩm mỹ và hoàn thành khóa học với cam kết tuân thủ đạo đức công nghệ tuyệt đối."
+  },
+  "knowledgeGraph": [
+    { "id": "mod-1", "label": "Hệ thống Máy tính", "subtitle": "Nền tảng phần cứng & ngoại vi", "x": 10, "y": 50, "moduleIndex": 0 },
+    { "id": "mod-2", "label": "Khai thác Dữ liệu", "subtitle": "Tìm kiếm & đánh giá thông tin", "x": 28, "y": 30, "moduleIndex": 1 },
+    { "id": "mod-3", "label": "Trí tuệ Nhân tạo", "subtitle": "Tổng quan & Ứng dụng AI", "x": 46, "y": 60, "moduleIndex": 2 },
+    { "id": "mod-4", "label": "Hợp tác Môi trường Số", "subtitle": "Giao tiếp số & Kanban", "x": 64, "y": 30, "moduleIndex": 3 },
+    { "id": "mod-5", "label": "Sáng tạo Nội dung", "subtitle": "Thiết kế & ấn phẩm số", "x": 82, "y": 60, "moduleIndex": 4 },
+    { "id": "mod-6", "label": "Đạo đức Kỹ thuật số", "subtitle": "An toàn & liêm chính học thuật", "x": 95, "y": 50, "moduleIndex": 5 }
+  ],
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Bài tập 1 - Bài 1: Máy tính và các thiết bị ngoại vi",
+      "role": "Nền tảng công nghệ số",
+      "overview": "Tìm hiểu cấu trúc tệp tin, phân chia quản lý dữ liệu lưu trữ và thực hành các thao tác cơ bản trên Hệ điều hành Windows nhằm quản trị dữ liệu học tập cá nhân một cách khoa học.",
+      "insights": "Việc tổ chức thư mục học tập khoa học giúp tối ưu hóa thời gian tra cứu và bảo vệ an toàn dữ liệu số khỏi thất lạc. Biết cách sử dụng phím tắt giúp gia tăng 40% hiệu suất quản lý tệp tin hàng ngày.",
+      "objectives": [
+        "Làm quen với giao diện File Explorer và thao tác quản lý tệp trên hệ điều hành Windows.",
+        "Thành thạo việc tạo, đổi tên, sao chép (Copy), di chuyển (Cut), xóa (Delete) tệp tin và thư mục.",
+        "Hiểu cơ chế hoạt động của Thùng rác (Recycle Bin) và cách khôi phục hoặc xóa vĩnh viễn tệp tin bằng phím tắt."
+      ],
+      "mainContent": "Nội dung bài tập hướng dẫn quy trình tạo thư mục học tập chuẩn hóa theo cú pháp ThucHanh_hotensinhvien. Thực hiện đổi tên tệp từ GhiChu.txt sang GhiChuQuanTrong.txt, thiết lập thư mục con TaiLieu, thực hành sao chép và di chuyển tệp tin qua phím tắt, tìm hiểu cách hoạt động của thùng rác và lệnh xóa vĩnh viễn Shift+Delete.",
+      "process": [
+        "Khởi chạy File Explorer bằng tổ hợp phím Windows + E và truy cập ổ đĩa lưu trữ (ổ D: hoặc Documents).",
+        "Tạo thư mục thực hành cá nhân theo cấu trúc quy chuẩn ThucHanh_NguyenTruongAn.",
+        "Tạo tệp văn bản GhiChu.txt, đổi tên tệp và tạo thư mục con TaiLieu.",
+        "Thực hiện các lệnh sao chép (Ctrl+C), di chuyển (Ctrl+X, Ctrl+V), xóa tệp và thực nghiệm khôi phục từ Recycle Bin hoặc xóa vĩnh viễn (Shift+Delete)."
+      ],
+      "evidence": [
+        { "title": "Sơ đồ Kiến trúc Von Neumann", "type": "diagram", "dataId": "von-neumann" },
+        { "title": "Bảng So sánh Linh kiện Phần cứng", "type": "table", "dataId": "components-table" },
+        { "title": "Mô phỏng Luồng Dữ liệu I/O", "type": "chart", "dataId": "io-flow" }
+      ],
+      "documents": [
+        { "name": "Báo cáo Bài tập 1.pdf", "path": "Baitap/Bai1/bai1.pdf", "size": "483 KB" }
+      ],
+      "reflection": "Thông qua bài học đầu tiên, tôi đã củng cố được nền móng vững chắc về công nghệ phần cứng và thao tác hệ thống. Việc thiết lập cấu trúc thư mục khoa học giúp tôi quản lý hàng tá tài liệu các môn học một cách gọn gàng, tránh thất lạc dữ liệu."
+    },
+    {
+      "id": "module-2",
+      "title": "Bài tập 2 - Bài 2: Khai thác dữ liệu và thông tin",
+      "role": "Kỹ năng tìm kiếm và đánh giá thông tin",
+      "overview": "Thực hành tra cứu, đánh giá chất lượng học thuật và độ tin cậy của 10 nguồn tài liệu nghiên cứu phục vụ đề tài nghiên cứu 'Tối ưu hóa kiến trúc SoC cho AI trên thiết bị Edge' bằng thang đánh giá tiêu chuẩn.",
+      "insights": "Trong thời đại quá tải thông tin hiện nay, bộ lọc tư duy phê phán chính là chìa khóa. Việc áp dụng tiêu chí chuẩn hóa giúp phân biệt rõ giữa tri thức khoa học đáng tin cậy và tin giả hay thông tin rác.",
+      "objectives": [
+        "Thành thạo kỹ thuật tìm kiếm nâng cao (Boolean Search, Google Operators) trên cơ sở dữ liệu IEEE, ACM, Google Scholar.",
+        "Áp dụng tiêu chí đánh giá nguồn tin khoa học CRAAP (Currency, Relevance, Authority, Accuracy, Purpose).",
+        "Lập bảng tổng hợp, đánh giá độ tin cậy của tài liệu nghiên cứu và trích dẫn chuẩn Harvard Style."
+      ],
+      "mainContent": "Nội dung bài tập tập trung phân tích 10 tài liệu khoa học hàng đầu liên quan đến bán dẫn và kiến trúc SoC cho AI. Thực hiện tra cứu và đánh giá kỹ lưỡng các tài liệu uy tín từ IEEE (Shao et al. 2023), ACM (Chen et al. 2024), tài liệu ngành của ARM và NVIDIA, sách chuyên khảo của Hennessy & Patterson. Đúc rút các xu hướng thiết kế chip AI chuyên dụng (DSA) và tối ưu hóa hiệu suất trên mỗi Watt.",
+      "process": [
+        "Xác định từ khóa cốt lõi (SoC architecture optimization, Edge AI hardware, FPGA accelerator) và xây dựng chuỗi truy vấn Boolean nâng cao.",
+        "Tra cứu tài liệu trên các nền tảng IEEE Xplore, Google Scholar và thư viện số VNU-LIC trong giai đoạn 2021-2026.",
+        "Đánh giá độ tin cậy của 10 nguồn thu thập theo 5 tiêu chí của ma trận CRAAP.",
+        "Tóm tắt nội dung chính của các bài báo, sách chuyên khảo tiêu biểu và xuất danh mục tài liệu tham khảo theo Harvard Style."
+      ],
+      "evidence": [
+        { "title": "Ma trận CRAAP Đánh giá Nguồn tin", "type": "matrix", "dataId": "craap-matrix" },
+        { "title": "Cú pháp Tìm kiếm Nâng cao", "type": "code", "dataId": "boolean-query" },
+        { "title": "Bản đồ Nguồn tin Khoa học", "type": "graph", "dataId": "citation-map" }
+      ],
+      "documents": [
+        { "name": "Báo cáo Bài tập 2.pdf", "path": "Baitap/Bai2/bai2.pdf", "size": "341 KB" }
+      ],
+      "reflection": "Kỹ năng tìm kiếm và đánh giá thông tin giúp tôi xây dựng tư duy nghiên cứu nghiêm túc. Tôi nhận ra các tài liệu từ tạp chí bình duyệt như IEEE, ACM luôn là nguồn tham khảo vững chắc nhất cho sinh viên công nghệ so với các nguồn tự do chưa qua kiểm duyệt."
+    },
+    {
+      "id": "module-3",
+      "title": "Bài tập 2 - Bài 3: Tổng quan về trí tuệ nhân tạo",
+      "role": "Hiểu và ứng dụng AI",
+      "overview": "Khám phá nguyên lý hoạt động của trí tuệ nhân tạo, thiết lập kỹ năng Prompt Engineering chuyên nghiệp phục vụ học tập (tóm tắt văn bản, giải thích khái niệm toán Giải tích 2, tạo câu hỏi ôn tập).",
+      "insights": "AI không phải là chiếc đũa thần tự động hóa tất cả, mà là một công cụ khuếch đại tư duy. Kết quả đầu ra của AI phụ thuộc trực tiếp vào chất lượng câu lệnh (prompt) và ngữ cảnh mà chúng ta cung cấp.",
+      "objectives": [
+        "Nắm vững nguyên tắc cấu trúc câu lệnh hiệu quả (Nguyên tắc 4C: Context, Clear, Concise, Constraint).",
+        "Làm chủ các kỹ thuật viết prompt nâng cao: Role Prompting, Chain-of-Thought (suy luận từng bước), và Few-shot Prompting.",
+        "Đánh giá và so sánh mức độ chính xác của phản hồi do AI tạo ra trên các dạng prompt khác nhau."
+      ],
+      "mainContent": "Thực hành thiết kế các bộ prompt cơ bản và prompt nâng cao để tương tác với mô hình ngôn ngữ lớn (LLM). Phân tích các trường hợp tóm tắt bài đọc chuyên ngành, giải thích các khái niệm toán học phức tạp trong tài liệu Giải tích 2 (ví dụ: Miền dạng 1 và Miền dạng 2 của tích phân kép) và thiết lập prompt tạo bộ đề ôn tập trắc nghiệm kèm đáp án chi tiết.",
+      "process": [
+        "Nghiên cứu nguyên lý hoạt động của LLM và các lỗi ảo giác (hallucination) thường gặp.",
+        "Thiết lập prompt cơ bản và tiến hành nâng cấp thành prompt cấu trúc chi tiết cho 3 nhiệm vụ học tập.",
+        "Ứng dụng kỹ thuật Chain-of-Thought để yêu cầu AI giải thích từng bước giải bài toán toán học cụ thể.",
+        "Đúc rút các mẹo thực chiến viết prompt như quy chuẩn định dạng Markdown, LaTeX cho công thức toán học và thiết lập phản hồi tương tác."
+      ],
+      "evidence": [
+        { "title": "Sơ đồ Phân nhánh Trí tuệ Nhân tạo", "type": "diagram", "dataId": "ai-branches" },
+        { "title": "Ma trận Thử nghiệm Prompt", "type": "table", "dataId": "prompt-testing" },
+        { "title": "Hệ thống Mẫu Prompt Học tập", "type": "code", "dataId": "prompt-templates" }
+      ],
+      "documents": [
+        { "name": "Báo cáo Bài tập 3.pdf", "path": "Baitap/Bai3/bai3.pdf", "size": "858 KB" }
+      ],
+      "reflection": "Làm chủ Prompt Engineering giúp tôi khai thác AI một cách thông minh và chủ động. AI đã trở thành một 'Gia sư ảo' đồng hành cùng tôi trong việc giải nghĩa các tài liệu kỹ thuật phức tạp, giúp việc tự học đạt hiệu quả cao hơn."
+    },
+    {
+      "id": "module-4",
+      "title": "Bài tập 3 - Bài 4: Giao tiếp và hợp tác trong môi trường số",
+      "role": "Hợp tác hiệu quả trong môi trường số",
+      "overview": "Ứng dụng các công cụ cộng tác trực tuyến hiện đại (ClickUp, Google Docs, Google Drive, Discord) nhằm xây dựng quy trình làm việc nhóm trực quan, khoa học trong học tập.",
+      "insights": "Hợp tác số không đơn thuần là nhắn tin qua Zalo hay Zoom, mà là xây dựng một hệ điều hành công việc minh bạch nơi mọi thành viên đều hiểu rõ tiến độ, vai trò và trách nhiệm của mình.",
+      "objectives": [
+        "Ứng dụng nền tảng ClickUp để quản trị dự án, lập danh mục tác vụ cá nhân và theo dõi trạng thái công việc.",
+        "Thành thạo công cụ Google Docs để đồng soạn thảo báo cáo, góp ý trực tuyến bằng tính năng bình luận.",
+        "Kết hợp Discord để họp nhóm đồng bộ và Google Drive để lưu trữ, chia sẻ cơ sở dữ liệu an toàn."
+      ],
+      "mainContent": "Hướng dẫn chi tiết quá trình thiết lập bảng Kanban cá nhân trên ClickUp với 4 cột trạng thái (To Do, In Progress, Review, Done). Lập danh sách phân chia công việc trong nhóm (viết nội dung mở đầu, tổng hợp tài liệu tham khảo, hoàn thiện báo cáo cuối). Đánh giá hiệu suất và rủi ro trễ deadline bằng cách kiểm soát thời hạn của từng nhiệm vụ cá nhân trong chu kỳ dự án 1 tuần.",
+      "process": [
+        "Khảo sát nhu cầu quản lý dự án học tập nhóm và lựa chọn bộ công cụ cộng tác phù hợp.",
+        "Thiết lập bảng tác vụ cá nhân trên ClickUp, định cấu hình thời hạn và thứ tự ưu tiên.",
+        "Thực hành soạn thảo báo cáo nhóm trực tiếp trên Google Docs, sử dụng các chế độ đề xuất sửa đổi và bình luận trao đổi.",
+        "Tổ chức kênh giao tiếp bất đồng bộ qua Discord và đánh giá hiệu quả phối hợp công cụ cuối chu kỳ dự án."
+      ],
+      "evidence": [
+        { "title": "Bảng Kanban Quản lý Học tập Nhóm", "type": "kanban", "dataId": "interactive-kanban-board" },
+        { "title": "Biểu đồ Phân bổ Vai trò RACI", "type": "table", "dataId": "raci-table" },
+        { "title": "Sơ đồ Luồng Giao tiếp Số", "type": "chart", "dataId": "collaboration-flow" }
+      ],
+      "documents": [
+        { "name": "Báo cáo Bài tập 4.pdf", "path": "Baitap/Bai4/bai4.pdf", "size": "4.73 MB" }
+      ],
+      "reflection": "Quá trình hợp tác số giúp tôi rèn luyện kỹ năng làm việc nhóm từ xa một cách bài bản. Việc trực quan hóa tiến trình công việc giúp loại bỏ hoàn toàn sự chồng chéo nhiệm vụ và thúc đẩy tinh thần chủ động hoàn thành đúng hạn."
+    },
+    {
+      "id": "module-5",
+      "title": "Bài tập 2 - Bài 5: Sáng tạo nội dung số",
+      "role": "Biến ý tưởng thành sản phẩm số",
+      "overview": "Ứng dụng các công nghệ AI tạo sinh (ChatGPT, DALL-E, Canva AI) vào quy trình thiết kế và trực quan hóa thông tin thành ấn phẩm Infographic học thuật chuyên nghiệp.",
+      "insights": "Nội dung số xuất sắc cần có sự cân bằng hoàn hảo giữa tính thẩm mỹ nghệ thuật và khả năng truyền đạt thông điệp rõ ràng. Thiết kế tốt là thiết kế giúp người xem tiếp nhận thông tin dễ dàng nhất.",
+      "objectives": [
+        "Kết hợp ChatGPT để xây dựng dàn ý, chắt lọc nội dung cốt lõi của đề tài nghiên cứu.",
+        "Ứng dụng mô hình DALL-E tạo hình ảnh minh họa độc bản mô tả sinh viên Việt Nam học tập cùng AI.",
+        "Sử dụng Canva AI để bố cục trang thiết kế Infographic, đồng bộ màu sắc và xuất bản định dạng tối ưu."
+      ],
+      "mainContent": "Dự án tập trung thiết kế sản phẩm Infographic truyền thông về chủ đề: 'Tác động của AI đến việc học của sinh viên'. ChatGPT hỗ trợ tinh gọn nội dung thành 5 luận điểm chính: cá nhân hóa việc học, tăng hiệu suất, phụ thuộc công nghệ, vấn đề đạo đức, kỹ năng mới. DALL-E tạo lập hình ảnh chất lượng cao theo prompt cấu trúc. Canva AI thực hiện phân bổ lưới thiết kế Gestalt và xuất bản báo cáo phân tích quy trình sáng tạo.",
+      "process": [
+        "Nghiên cứu đối tượng người xem và chắt lọc nội dung cốt lõi thông qua ChatGPT.",
+        "Tạo hình minh họa độc bản bằng AI DALL-E với mô tả bối cảnh sinh viên Việt Nam và bàn học tối giản.",
+        "Nhập tài nguyên ảnh vào Canva, căn chỉnh bố cục lưới và thiết kế bảng màu thương hiệu.",
+        "Xuất bản ấn phẩm truyền thông số và viết báo cáo đánh giá trải nghiệm kết hợp các công cụ AI."
+      ],
+      "evidence": [
+        { "title": "Bộ sưu tập Ấn phẩm Thiết kế Số", "type": "gallery", "dataId": "design-gallery-view" },
+        { "title": "Sơ đồ Tư duy Thiết kế (Design Thinking)", "type": "diagram", "dataId": "design-thinking-process" },
+        { "title": "Phân tích Bố cục Lưới & Màu sắc", "type": "chart", "dataId": "grid-color-analysis" }
+      ],
+      "documents": [
+        { "name": "Báo cáo Bài tập 5.pdf", "path": "Baitap/Bai5/bai5.pdf", "size": "676 KB" }
+      ],
+      "reflection": "Sáng tạo nội dung số với sự trợ lực của AI giúp tôi nâng tầm tư duy trực quan hóa. Việc học cách kết nối ChatGPT để xây dựng nội dung, DALL-E để sản xuất tài nguyên và Canva để dàn trang là quy trình thiết kế hiệu năng cao."
+    },
+    {
+      "id": "module-6",
+      "title": "Bài tập 4 - Bài 6: An toàn và liêm chính học thuật trong môi trường số",
+      "role": "Sử dụng AI và công nghệ có trách nhiệm",
+      "overview": "Nghiên cứu chính sách đạo đức công nghệ của trường đại học (ĐHQGHN) và thiết lập bộ nguyên tắc cá nhân về sử dụng AI có trách nhiệm nhằm đảm bảo liêm chính học thuật.",
+      "insights": "Sự tiện lợi của AI mang lại rủi ro rất lớn về liêm chính học thuật nếu lạm dụng sao chép không trích dẫn. Sử dụng AI có trách nhiệm là việc bảo vệ quyền sở hữu trí tuệ và khẳng định giá trị đóng góp độc lập của người học.",
+      "objectives": [
+        "Hiểu rõ chính sách khuyến khích ứng dụng AI và ranh giới ngăn ngừa gian lận học thuật tại Đại học Quốc Gia Hà Nội.",
+        "Thực hành xây dựng bài thuyết trình 'Tác động của AI đối với sinh viên' kết hợp trích dẫn nguồn AI chuẩn mực.",
+        "Thiết lập bộ 7 nguyên tắc đạo đức cá nhân khi sử dụng trí tuệ nhân tạo trong môi trường học tập trực tuyến."
+      ],
+      "mainContent": "Báo cáo chi tiết về chính sách AI của ĐHQGHN, tập trung vào tính minh bạch, đạo đức học thuật và trách nhiệm người học. Thực hành thiết kế slide thuyết trình với sự hỗ trợ của ChatGPT từ việc lên dàn ý, viết nội dung từng slide đến định hình hình ảnh. Phân tích ranh giới giữa hỗ trợ hợp lý (gợi ý ý tưởng, tóm tắt tài liệu) và gian lận (sao chép nguyên văn), ảnh hưởng của AI tới kỹ năng viết độc lập và đề xuất bộ quy tắc ứng xử AI có trách nhiệm.",
+      "process": [
+        "Khảo sát các định hướng và tài liệu chính sách của ĐHQGHN liên quan đến đạo đức học thuật và ứng dụng công nghệ số.",
+        "Thiết lập bài thuyết trình mẫu, ghi nhận đầy đủ lịch sử prompt sử dụng và cách biên tập đầu ra của AI.",
+        "Soạn thảo phần trích dẫn minh bạch về việc sử dụng AI (APA Style) trong báo cáo.",
+        "Lập bộ 7 nguyên tắc cá nhân và thiết kế Infographic tổng kết chính sách sử dụng AI có trách nhiệm."
+      ],
+      "evidence": [
+        { "title": "7 Nguyên tắc Đạo đức AI", "type": "list", "dataId": "ethics-principles" },
+        { "title": "Mẫu Hướng dẫn Trích dẫn Nguồn AI", "type": "table", "dataId": "ai-citation-guide" },
+        { "title": "Sơ đồ Quy trình Kiểm tra Liêm chính", "type": "chart", "dataId": "integrity-check" }
+      ],
+      "documents": [
+        { "name": "Báo cáo Bài tập 6.pdf", "path": "Baitap/Bai6/bai6.pdf", "size": "1.25 MB" }
+      ],
+      "reflection": "Đạo đức số chính là kim chỉ nam giúp tôi học tập bền vững trong kỷ nguyên AI. Việc tự đặt ra giới hạn và trích dẫn minh bạch nguồn AI không làm giảm giá trị bài báo cáo, ngược lại khẳng định năng lực nghiên cứu độc lập và sự chuyên nghiệp của bản thân."
+    }
+  ],
+  "skills": {
+    "labels": [
+      "Digital Literacy",
+      "AI Literacy",
+      "Prompt Engineering",
+      "Research Skills",
+      "Collaboration",
+      "Content Creation",
+      "Critical Thinking"
+    ],
+    "scores": [90, 85, 95, 88, 92, 85, 90],
+    "matrix": [
+      { "name": "Digital Literacy", "level": "Advanced", "description": "Làm chủ kiến trúc máy tính cá nhân, hệ thống lưu trữ đám mây và cấu hình thiết bị ngoại vi tối ưu." },
+      { "name": "AI Literacy", "level": "Advanced", "description": "Hiểu rõ các thuật toán học máy cơ bản, mô hình ngôn ngữ lớn và giới hạn của Generative AI." },
+      { "name": "Prompt Engineering", "level": "Expert", "description": "Thành thạo cấu trúc câu lệnh chuyên nghiệp, tạo lập chatbot cá nhân hóa và tinh chỉnh ngữ cảnh thông minh." },
+      { "name": "Research Skills", "level": "Advanced", "description": "Sử dụng thành thạo toán tử Boolean nâng cao và quy trình đánh giá nguồn tin tin cậy CRAAP." },
+      { "name": "Collaboration", "level": "Expert", "description": "Điều phối công việc nhóm mượt mượt thông qua bảng ClickUp/Kanban trực quan và quy trình Agile tinh gọn." },
+      { "name": "Content Creation", "level": "Advanced", "description": "Tự thiết kế infographics, slide báo cáo học thuật chuyên nghiệp với bố cục lưới Canva chặt chẽ." },
+      { "name": "Critical Thinking", "level": "Advanced", "description": "Biết hoài nghi khoa học trước dữ liệu số, phân tích lỗi ảo giác của AI và thẩm định nguồn gốc thông tin." }
+    ]
+  },
+  "achievements": [],
+  "reflectionCenter": {
+    "title": "Báo Cáo Tổng Kết Hành Trình Chuyển Đổi Số Học Thuật",
+    "intro": "Nhìn lại toàn bộ hành trình đi qua 6 bài học lớn, tôi nhận thấy bản thân đã thực hiện được một cuộc chuyển đổi số tư duy toàn diện. Từ một người sử dụng công nghệ thụ động, tôi đã biến đổi thành một công dân số chủ động kiến tạo giá trị với sự trợ lực đắc lực từ AI.",
+    "flow": [
+      { "step": "Hiểu công nghệ", "desc": "Nắm vững bản chất phần cứng máy tính và cách quản lý tệp tin trên Windows." },
+      { "step": "Khai thác thông tin", "desc": "Tự thiết lập màng lọc tư duy phản biện, thẩm định 10 nguồn tài liệu về chip Edge AI theo ma trận CRAAP." },
+      { "step": "Tiếp cận AI", "desc": "Làm chủ câu lệnh (Prompt) và kỹ thuật Chain-of-Thought Giải tích 2 để biến AI thành cộng sự đắc lực." },
+      { "step": "Hợp tác số", "desc": "Chuyển giao việc quản trị cá nhân lẫn nhóm lên hệ điều hành Kanban ClickUp và Discord." },
+      { "step": "Sáng tạo nội dung", "desc": "Trực quan hóa tác động của AI bằng infographic tự thiết kế kết hợp ChatGPT, DALL-E và Canva AI." },
+      { "step": "Đạo đức số", "desc": "Cam kết sử dụng AI có trách nhiệm dựa trên chính sách của ĐHQGHN và 7 nguyên tắc đạo đức cá nhân." }
+    ],
+    "conclusion": "Học phần này không chỉ cung cấp kiến thức, mà trang bị cho tôi một 'Hệ Điều Hành Học Tập Mới' - nơi tôi làm chủ các công cụ, dữ liệu và AI để sẵn sàng bước vào cuộc cách mạng công nghệ tương lai với vị thế vững vàng nhất."
+  }
+}

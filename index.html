@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Digital OS Portfolio - Nguyễn Trường An | Nhập môn Công nghệ số &amp; Ứng dụng AI</title>
+  <meta name="description" content="Hệ điều hành học tập cá nhân (Digital Operating System Portfolio) ghi lại chặng đường học tập, các kỹ năng số, kỹ năng trí tuệ nhân tạo và minh chứng bài tập môn Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo.">
+  <meta name="keywords" content="Portfolio, Digital OS, Nguyễn Trường An, Công nghệ số, Trí tuệ nhân tạo, AI, Prompt Engineering, Học tập số">
+  <meta name="author" content="Nguyễn Trường An">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="c:/Users/user/Downloads/frtdn/index.html">
+  <meta property="og:title" content="Digital OS Portfolio - Nguyễn Trường An">
+  <meta property="og:description" content="Hệ điều hành học tập cá nhân và báo cáo minh chứng học tập môn Nhập môn Công nghệ số &amp; Trí tuệ nhân tạo.">
+  <meta property="og:image" content="img/avt.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Digital OS Portfolio - Nguyễn Trường An">
+  <meta property="twitter:description" content="Hệ điều hành học tập cá nhân và báo cáo minh chứng học tập môn Nhập môn Công nghệ số &amp; Trí tuệ nhân tạo.">
+  <meta property="twitter:image" content="img/avt.jpg">
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JSON-LD Schema Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Nguyễn Trường An",
+        "jobTitle": "Student & AI Developer",
+        "description": "Học viên xuất sắc môn Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo.",
+        "image": "img/avt.jpg",
+        "knowsAbout": [
+          "Digital Literacy",
+          "AI Literacy",
+          "Prompt Engineering",
+          "Research Skills",
+          "Collaboration",
+          "Content Creation",
+          "Critical Thinking"
+        ]
+      }
+    }
+  </script>
+</head>
+<body>
+
+  <!-- 1. Loading Screen -->
+  <div id="loading-screen" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Loading application">
+    <div class="loader-logo" aria-hidden="true">
+      <span>⚙</span> DigitalOS_
+    </div>
+    <div class="loader-bar-container">
+      <div class="loader-bar" id="loading-bar"></div>
+    </div>
+  </div>
+
+  <!-- 2. Scroll Progress Bar -->
+  <div id="scroll-progress-bar" aria-hidden="true"></div>
+
+
+
+  <!-- 4. Mobile Header -->
+  <header class="mobile-header">
+    <div class="mobile-brand">DigitalOS_</div>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Mở menu điều hướng" aria-expanded="false" aria-controls="sidebar">
+      ☰
+    </button>
+  </header>
+
+  <!-- Main Wrapper -->
+  <div class="app-container">
+
+    <!-- 5. Sidebar Navigation (Desktop Fixed, Mobile Drawer) -->
+    <aside class="sidebar" id="sidebar" aria-label="Thanh điều hướng chính">
+      <!-- Profile Widget -->
+      <div class="profile-widget">
+        <div class="profile-avatar-container">
+          <img src="img/avt.jpg" alt="Nguyễn Trường An Avatar" class="profile-avatar" id="sidebar-avatar" onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex'">
+          <div class="profile-avatar-fallback" id="avatar-fallback" style="display:none;" aria-hidden="true">TA</div>
+          <div class="status-dot" title="Đang trực tuyến"></div>
+        </div>
+        <h3 class="profile-name" id="sidebar-name">Nguyễn Trường An</h3>
+        <span class="profile-role" id="sidebar-role">Học viên</span>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="sidebar-nav">
+        <ul>
+          <li>
+            <a href="#control-center" class="nav-link active" data-target="control-center">
+              <span class="nav-icon">📊</span> Overview
+            </a>
+          </li>
+          <li>
+            <a href="#knowledge-map" class="nav-link" data-target="knowledge-map">
+              <span class="nav-icon">🗺️</span> Knowledge Map
+            </a>
+          </li>
+          <li>
+            <a href="#modules-container" class="nav-link" data-target="modules-container">
+              <span class="nav-icon">📘</span> Learning Modules
+            </a>
+          </li>
+          <li>
+            <a href="#document-hub" class="nav-link" data-target="document-hub">
+              <span class="nav-icon">📂</span> Documents
+            </a>
+          </li>
+          <li>
+            <a href="#skills-center" class="nav-link" data-target="skills-center">
+              <span class="nav-icon">⚡</span> Skills
+            </a>
+          </li>
+          <li>
+            <a href="#reflection" class="nav-link" data-target="reflection">
+              <span class="nav-icon">📝</span> Reflection
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Sidebar Footer -->
+      <div class="sidebar-footer">
+        <div class="shortcut-hint">
+          <span>Command Menu</span>
+          <kbd class="shortcut-kbd">Ctrl K</kbd>
+        </div>
+      </div>
+    </aside>
+
+    <!-- 6. Main Viewport -->
+    <main class="main-viewport" id="main-viewport">
+
+      <!-- DIGITAL CONTROL CENTER (FIRST SCREEN) -->
+      <section id="control-center" class="control-center reveal active">
+        <div class="welcome-widget">
+          <img src="img/avt.jpg" alt="Nguyễn Trường An" class="welcome-avatar" id="welcome-avatar" onerror="this.style.display='none'; document.getElementById('welcome-avatar-fallback').style.display='flex'">
+          <div class="profile-avatar-fallback welcome-avatar" id="welcome-avatar-fallback" style="display:none; width:90px; height:90px; border-radius:50%; align-items:center; justify-content:center; color:#fff; font-size:2rem;" aria-hidden="true">TA</div>
+          <div class="welcome-info">
+            <div class="welcome-badge">
+              <span class="badge-dot" style="width: 8px; height: 8px; background-color: var(--accent); border-radius: 50%;"></span>
+              <span id="welcome-course-title">Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo</span>
+            </div>
+            <h1 class="welcome-name" id="welcome-name">Chào mừng, tôi là Nguyễn Trường An</h1>
+            <div class="typing-sub" aria-live="polite">
+              <span id="typing-text"></span><span class="typing-cursor">|</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dashboard Cards (Metrics) -->
+        <div class="metrics-grid">
+          <!-- Metric 1: Assignments -->
+          <div class="metric-card floating-card">
+            <div class="metric-details">
+              <h4>Bài tập nộp</h4>
+              <div class="metric-value" id="counter-assignments" data-val="6">0</div>
+            </div>
+            <div class="progress-circle-container">
+              <svg class="progress-circle-svg" width="65" height="65">
+                <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
+                <circle class="progress-circle-fill" id="circle-assignments" cx="32.5" cy="32.5" r="30" />
+              </svg>
+              <div class="progress-text">6/6</div>
+            </div>
+          </div>
+
+          <!-- Metric 2: Documents -->
+          <div class="metric-card floating-card">
+            <div class="metric-details">
+              <h4>Tài liệu Hub</h4>
+              <div class="metric-value" id="counter-documents" data-val="6">0</div>
+            </div>
+            <div class="progress-circle-container">
+              <svg class="progress-circle-svg" width="65" height="65">
+                <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
+                <circle class="progress-circle-fill" id="circle-documents" cx="32.5" cy="32.5" r="30" />
+              </svg>
+              <div class="progress-text" id="progress-doc-text">6</div>
+            </div>
+          </div>
+
+          <!-- Metric 3: Skills -->
+          <div class="metric-card floating-card">
+            <div class="metric-details">
+              <h4>Kỹ năng số</h4>
+              <div class="metric-value" id="counter-skills" data-val="7">0</div>
+            </div>
+            <div class="progress-circle-container">
+              <svg class="progress-circle-svg" width="65" height="65">
+                <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
+                <circle class="progress-circle-fill" id="circle-skills" cx="32.5" cy="32.5" r="30" />
+              </svg>
+              <div class="progress-text">7/7</div>
+            </div>
+          </div>
+
+          <!-- Metric 4: Progress -->
+          <div class="metric-card floating-card">
+            <div class="metric-details">
+              <h4>Tiến độ học tập</h4>
+              <div class="metric-value" id="counter-progress" data-val="100">0</div>
+            </div>
+            <div class="progress-circle-container">
+              <svg class="progress-circle-svg" width="65" height="65">
+                <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
+                <circle class="progress-circle-fill" id="circle-progress" cx="32.5" cy="32.5" r="30" />
+              </svg>
+              <div class="progress-text">100%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- OVERVIEW (EXECUTIVE SUMMARY) -->
+      <section id="overview" class="section-container reveal">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Tổng quan Hành trình</h2>
+            <p class="section-desc">Tóm tắt quá trình tiếp cận tri thức số, ứng dụng trí tuệ nhân tạo và cam kết phát triển.</p>
+          </div>
+        </div>
+        <div class="overview-grid">
+          <div class="overview-card" id="overview-summary-card">
+            <h3>Tự thuật học tập</h3>
+            <p id="overview-summary-text"></p>
+            <h3>Mục tiêu phát triển cá nhân</h3>
+            <ul class="goals-list" id="overview-goals-list"></ul>
+          </div>
+          <div class="ai-role-card">
+            <h3>🤖 Vai trò của AI Co-pilot</h3>
+            <p id="overview-ai-role-text"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- KNOWLEDGE MAP (INTERACTIVE GRAPH) -->
+      <section id="knowledge-map" class="section-container reveal">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Knowledge Map</h2>
+            <p class="section-desc">Bản đồ kiến thức tương tác kết nối 6 bài học lớn. Click vào các nút để chuyển đến nội dung tương ứng.</p>
+          </div>
+        </div>
+        <div class="knowledge-map-card">
+          <div class="graph-container">
+            <svg class="graph-svg" id="graph-svg" aria-label="Sơ đồ tương tác các module kiến thức">
+              <path class="graph-line" id="graph-path" d="" />
+              <path class="graph-line graph-line-active" id="graph-path-active" d="" />
+            </svg>
+            <div class="graph-nodes-wrapper" id="graph-nodes-container"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LEARNING MODULES CONTAINER (DYNAMICALLY GENERATED) -->
+      <section id="modules-container" class="section-container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Knowledge Modules</h2>
+            <p class="section-desc">Báo cáo chi tiết quá trình học tập, tài liệu minh chứng và bài học tự đúc rút qua từng module bài tập.</p>
+          </div>
+        </div>
+        <div id="dynamic-modules" class="modules-wrapper">
+          <!-- Dynamically injected modules via main.js -->
+        </div>
+      </section>
+
+      <!-- DOCUMENT HUB (NOTION / OBSIDIAN STYLE) -->
+      <section id="document-hub" class="section-container reveal">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Document Hub</h2>
+            <p class="section-desc">Không gian quản lý tài liệu tập trung. Đọc tài liệu PDF trực tiếp và tùy chỉnh chế độ xem.</p>
+          </div>
+        </div>
+        <div class="document-hub">
+          <!-- Hub Left Sidebar -->
+          <div class="hub-sidebar">
+            <h3 class="hub-sidebar-title">Danh sách bài tập</h3>
+            <ul class="hub-doc-list" id="hub-document-list" role="tablist">
+              <!-- Dynamically populated links -->
+            </ul>
+          </div>
+
+          <!-- Hub Right Preview Panel -->
+          <div class="hub-preview">
+            <div class="hub-preview-header">
+              <div class="hub-preview-title" id="pdf-viewer-title">Chọn tài liệu để xem thử</div>
+              
+              <!-- PDF Toolbar Controls -->
+              <div class="pdf-toolbar" id="pdf-toolbar" style="display: none;">
+                <button class="pdf-btn" id="pdf-zoom-out" title="Thu nhỏ" aria-label="Thu nhỏ">➖</button>
+                <button class="pdf-btn" id="pdf-zoom-in" title="Phóng to" aria-label="Phóng to">➕</button>
+                <button class="pdf-btn" id="pdf-fullscreen" title="Toàn màn hình" aria-label="Xem toàn màn hình">⛶</button>
+                <button class="pdf-btn pdf-btn-text" id="pdf-download" title="Tải tài liệu">
+                  📥 Tải tài liệu
+                </button>
+              </div>
+            </div>
+
+            <!-- PDF Viewer Body -->
+            <div class="hub-preview-body" id="pdf-viewer-body">
+              <!-- Fullscreen Close Button -->
+              <button class="fullscreen-close" id="pdf-close-fullscreen" aria-label="Đóng toàn màn hình">✕</button>
+              
+              <!-- PDF Preview Container -->
+              <div class="hub-iframe-wrapper" id="pdf-frame-wrapper">
+                <!-- iframe will be dynamically added here -->
+              </div>
+              
+              <!-- Placeholder when no doc is active -->
+              <div class="hub-preview-placeholder" id="pdf-placeholder">
+                <i aria-hidden="true" style="font-style: normal; font-size: 3rem;">📄</i>
+                <p>Nhấp vào bất kỳ tài liệu nào ở thanh bên trái để xem trực tuyến</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILL INTELLIGENCE CENTER (RADAR CHART & MATRIX) -->
+      <section id="skills-center" class="section-container reveal">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Skill Intelligence Center</h2>
+            <p class="section-desc">Phân tích năng lực số và mức độ thông thạo kỹ năng qua biểu đồ Radar tự thiết kế và ma trận kỹ năng chi tiết.</p>
+          </div>
+        </div>
+        <div class="skills-wrapper">
+          <!-- Radar Chart Card -->
+          <div class="radar-chart-card">
+            <h3>Biểu đồ mạng lưới kỹ năng</h3>
+            <div class="radar-chart-container" id="radar-chart-container">
+              <svg class="radar-svg" id="radar-svg" viewBox="0 0 400 400" aria-label="Biểu đồ mạng lưới kỹ năng số và AI">
+                <!-- Dynamic SVG content -->
+              </svg>
+            </div>
+          </div>
+
+          <!-- Skill Matrix Card -->
+          <div class="skills-matrix-card">
+            <h3>Ma trận kỹ năng số (Skill Matrix)</h3>
+            <div class="skills-matrix-grid" id="skills-matrix-container">
+              <!-- Injected via JS -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- REFLECTION CENTER -->
+      <section id="reflection" class="section-container reveal">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title" id="reflection-title-main">Reflection Center</h2>
+            <p class="section-desc">Báo cáo tổng kết chặng đường học tập dưới dạng luồng phát triển năng lực số.</p>
+          </div>
+        </div>
+        <div class="reflection-card">
+          <p class="reflection-intro" id="reflection-intro-text"></p>
+          
+          <!-- Report Flow Diagram (SVG/HTML Timeline) -->
+          <div class="report-flow" id="reflection-flow-container">
+            <!-- Dynamic flow steps -->
+          </div>
+
+          <!-- Conclusion Card -->
+          <div class="reflection-conclusion">
+            <h4 id="reflection-conclusion-title">Kết luận chung</h4>
+            <p id="reflection-conclusion-text"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="site-footer" id="site-footer">
+        <div class="footer-logo">DigitalOS_</div>
+        <p class="footer-desc" id="footer-copyright">
+          © 2026 Nguyễn Trường An. Học phần Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo.
+        </p>
+      </footer>
+
+    </main>
+
+  </div>
+
+  <!-- 7. Back To Top Button -->
+  <button id="back-to-top" aria-label="Quay lại đầu trang" title="Quay lại đầu trang">
+    ↑
+  </button>
+
+  <!-- 8. Floating Bottom Dock Navigation -->
+  <div class="floating-dock-wrapper" id="floating-dock-wrapper">
+    <nav class="floating-dock" aria-label="Thanh công cụ nhanh">
+      <div class="dock-item" data-tooltip="Tổng quan" data-nav="control-center" role="link">🏠</div>
+      <div class="dock-item" data-tooltip="Knowledge Map" data-nav="knowledge-map" role="link">🗺️</div>
+      <div class="dock-item" data-tooltip="Tất cả Module" data-nav="modules-container" role="link">📘</div>
+      <div class="dock-item" data-tooltip="Tài liệu Hub" data-nav="document-hub" role="link">📂</div>
+      <div class="dock-separator"></div>
+      <div class="dock-item" data-tooltip="Giao diện (Sáng/Tối)" id="dock-theme-toggle" role="button" aria-label="Thay đổi giao diện sáng tối">🌓</div>
+      <div class="dock-item" data-tooltip="Command Menu (Ctrl+K)" id="dock-command-toggle" role="button" aria-label="Mở menu lệnh">⌨️</div>
+    </nav>
+  </div>
+
+  <!-- 9. Command Palette (Ctrl+K) Modal -->
+  <div class="command-palette-overlay" id="command-palette-overlay" role="dialog" aria-modal="true" aria-label="Menu lệnh nhanh">
+    <div class="command-palette">
+      <div class="palette-search-container">
+        <span class="palette-search-icon">🔍</span>
+        <input type="text" class="palette-search-input" id="palette-search" placeholder="Nhập lệnh hoặc tên mục để tìm kiếm..." autocomplete="off">
+      </div>
+      <ul class="palette-results" id="palette-results" role="listbox">
+        <!-- Dynamically filtered commands -->
+      </ul>
+      <div class="palette-footer">
+        <div class="palette-instructions">
+          <span><kbd class="palette-key">↑↓</kbd> Di chuyển</span>
+          <span><kbd class="palette-key">Enter</kbd> Chọn</span>
+          <span><kbd class="palette-key">Esc</kbd> Đóng</span>
+        </div>
+        <div class="palette-app-info">Digital OS v1.0.0</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. Lightbox Gallery Modal -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Trình xem ảnh phóng lớn">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Đóng xem ảnh">✕</button>
+    <div class="lightbox-content-box">
+      <div class="lightbox-header">
+        <div class="lightbox-title" id="lightbox-title">Chi tiết Minh chứng</div>
+      </div>
+      <div class="lightbox-body">
+        <div class="lightbox-graphic-preview" id="lightbox-preview-container">
+          <!-- Injected SVG diagram or visual -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

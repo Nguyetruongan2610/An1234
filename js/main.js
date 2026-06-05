@@ -350,24 +350,15 @@ function renderProfileData() {
   document.getElementById("welcome-name").textContent = `Chào mừng, tôi là ${p.name}`;
   document.getElementById("welcome-course-title").textContent = p.course;
   
-  // Add new details dynamically if elements exist
-  const sidebarMsv = document.getElementById("sidebar-msv");
-  const sidebarMajor = document.getElementById("sidebar-major");
-  const welcomeMsv = document.getElementById("welcome-msv");
-  const welcomeMajor = document.getElementById("welcome-major");
-  
-  if (sidebarMsv) sidebarMsv.textContent = p.studentId;
-  if (sidebarMajor) sidebarMajor.textContent = p.major;
-  if (welcomeMsv) welcomeMsv.textContent = p.studentId;
-  if (welcomeMajor) welcomeMajor.textContent = p.major;
-
   // Student Profile Card bindings
   const cardName = document.getElementById("card-name");
+  const cardMsv = document.getElementById("card-msv");
   const cardMajor = document.getElementById("card-major");
   const cardSchool = document.getElementById("card-school");
   const cardEmail = document.getElementById("card-email");
 
   if (cardName) cardName.textContent = p.name;
+  if (cardMsv) cardMsv.textContent = p.studentId;
   if (cardMajor) cardMajor.textContent = p.major;
   if (cardSchool) cardSchool.textContent = p.school;
   if (cardEmail) cardEmail.textContent = p.email;

@@ -345,8 +345,10 @@ function renderProfileData() {
   const p = AppData.profile;
   
   // Set texts
-  document.getElementById("sidebar-name").textContent = p.name;
-  document.getElementById("sidebar-role").textContent = p.role;
+  const sidebarName = document.getElementById("sidebar-name");
+  const sidebarRole = document.getElementById("sidebar-role");
+  if (sidebarName) sidebarName.textContent = p.name;
+  if (sidebarRole) sidebarRole.textContent = p.role;
   document.getElementById("welcome-name").textContent = `Chào mừng, tôi là ${p.name}`;
   document.getElementById("welcome-course-title").textContent = p.course;
   

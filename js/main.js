@@ -260,7 +260,7 @@ let pdfZoomLevel = 1.0;
 document.addEventListener("DOMContentLoaded", async () => {
   // Try loading dynamic JSON data. Fallback to hardcoded object if offline/file:// CORS block
   try {
-    const response = await fetch("data/data.json");
+    const response = await fetch(`data/data.json?_t=${Date.now()}`);
     if (response.ok) {
       AppData = await response.json();
       console.log("Loaded AppData from data/data.json");

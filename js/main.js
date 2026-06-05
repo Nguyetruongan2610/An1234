@@ -11,11 +11,13 @@ const FALLBACK_DATA = {
     "name": "Nguyễn Trường An",
     "studentId": "25020440",
     "class": "Nhóm 23",
+    "major": "Kỹ thuật Máy tính",
+    "school": "Trường Đại học Công nghệ - VNU",
     "course": "Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo",
     "avatar": "img/avt.jpg",
     "status": "Hoàn thành 100% chương trình học tập",
     "role": "Học viên xuất sắc & Nhà phát triển tương lai",
-    "email": "an.nt25020440@student.edu.vn",
+    "email": "25020440@vnu.edu.vn",
     "github": "https://github.com/nguyen-truong-an",
     "linkedin": "https://linkedin.com/in/nguyen-truong-an"
   },
@@ -348,6 +350,27 @@ function renderProfileData() {
   document.getElementById("welcome-name").textContent = `Chào mừng, tôi là ${p.name}`;
   document.getElementById("welcome-course-title").textContent = p.course;
   
+  // Add new details dynamically if elements exist
+  const sidebarMsv = document.getElementById("sidebar-msv");
+  const sidebarMajor = document.getElementById("sidebar-major");
+  const welcomeMsv = document.getElementById("welcome-msv");
+  const welcomeMajor = document.getElementById("welcome-major");
+  
+  if (sidebarMsv) sidebarMsv.textContent = p.studentId;
+  if (sidebarMajor) sidebarMajor.textContent = p.major;
+  if (welcomeMsv) welcomeMsv.textContent = p.studentId;
+  if (welcomeMajor) welcomeMajor.textContent = p.major;
+
+  // Student Profile Card bindings
+  const cardName = document.getElementById("card-name");
+  const cardMajor = document.getElementById("card-major");
+  const cardSchool = document.getElementById("card-school");
+  const cardEmail = document.getElementById("card-email");
+
+  if (cardName) cardName.textContent = p.name;
+  if (cardMajor) cardMajor.textContent = p.major;
+  if (cardSchool) cardSchool.textContent = p.school;
+  if (cardEmail) cardEmail.textContent = p.email;
 }
 
 function renderOverview() {

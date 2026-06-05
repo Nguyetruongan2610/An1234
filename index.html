@@ -89,6 +89,10 @@
         </div>
         <h3 class="profile-name" id="sidebar-name">Nguyễn Trường An</h3>
         <span class="profile-role" id="sidebar-role">Học viên</span>
+        <div class="profile-meta" style="font-size: 0.72rem; color: var(--subtext); margin-top: 6px; line-height: 1.4; opacity: 0.85;">
+          <div>MSV: <span id="sidebar-msv">25020440</span></div>
+          <div>Ngành: <span id="sidebar-major">Kỹ thuật Máy tính</span></div>
+        </div>
       </div>
 
       <!-- Navigation Links -->
@@ -141,80 +145,122 @@
 
       <!-- DIGITAL CONTROL CENTER (FIRST SCREEN) -->
       <section id="control-center" class="control-center reveal active">
-        <div class="welcome-widget">
-          <img src="img/avt.jpg" alt="Nguyễn Trường An" class="welcome-avatar" id="welcome-avatar" onerror="this.style.display='none'; document.getElementById('welcome-avatar-fallback').style.display='flex'">
-          <div class="profile-avatar-fallback welcome-avatar" id="welcome-avatar-fallback" style="display:none; width:90px; height:90px; border-radius:50%; align-items:center; justify-content:center; color:#fff; font-size:2rem;" aria-hidden="true">TA</div>
-          <div class="welcome-info">
-            <div class="welcome-badge">
-              <span class="badge-dot" style="width: 8px; height: 8px; background-color: var(--accent); border-radius: 50%;"></span>
-              <span id="welcome-course-title">Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo</span>
+        <div class="control-center-layout">
+          <div class="control-center-left">
+            <div class="welcome-widget">
+              <img src="img/avt.jpg" alt="Nguyễn Trường An" class="welcome-avatar" id="welcome-avatar" onerror="this.style.display='none'; document.getElementById('welcome-avatar-fallback').style.display='flex'">
+              <div class="profile-avatar-fallback welcome-avatar" id="welcome-avatar-fallback" style="display:none; width:90px; height:90px; border-radius:50%; align-items:center; justify-content:center; color:#fff; font-size:2rem;" aria-hidden="true">TA</div>
+              <div class="welcome-info">
+                <div class="welcome-badge">
+                  <span class="badge-dot" style="width: 8px; height: 8px; background-color: var(--accent); border-radius: 50%;"></span>
+                  <span id="welcome-course-title">Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo</span>
+                </div>
+                <h1 class="welcome-name" id="welcome-name">Chào mừng, tôi là Nguyễn Trường An</h1>
+                <div class="typing-sub" aria-live="polite">
+                  <span id="typing-text"></span><span class="typing-cursor">|</span>
+                </div>
+                <div class="welcome-meta" style="margin-top: 12px; display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.85rem; color: var(--subtext); opacity: 0.85;">
+                  <span><strong>MSV:</strong> <span id="welcome-msv">25020440</span></span>
+                  <span><strong>Ngành:</strong> <span id="welcome-major">Kỹ thuật Máy tính</span></span>
+                </div>
+              </div>
             </div>
-            <h1 class="welcome-name" id="welcome-name">Chào mừng, tôi là Nguyễn Trường An</h1>
-            <div class="typing-sub" aria-live="polite">
-              <span id="typing-text"></span><span class="typing-cursor">|</span>
+
+            <!-- Dashboard Cards (Metrics) -->
+            <div class="metrics-grid">
+              <!-- Metric 1: Assignments -->
+              <div class="metric-card floating-card">
+                <div class="metric-details">
+                  <h4>Bài tập nộp</h4>
+                  <div class="metric-value" id="counter-assignments" data-val="6">0</div>
+                </div>
+                <div class="progress-circle-container">
+                  <svg class="progress-circle-svg" width="65" height="65">
+                    <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
+                    <circle class="progress-circle-fill" id="circle-assignments" cx="32.5" cy="32.5" r="30" />
+                  </svg>
+                  <div class="progress-text">6/6</div>
+                </div>
+              </div>
+
+              <!-- Metric 2: Documents -->
+              <div class="metric-card floating-card">
+                <div class="metric-details">
+                  <h4>Tài liệu Hub</h4>
+                  <div class="metric-value" id="counter-documents" data-val="6">0</div>
+                </div>
+                <div class="progress-circle-container">
+                  <svg class="progress-circle-svg" width="65" height="65">
+                    <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
+                    <circle class="progress-circle-fill" id="circle-documents" cx="32.5" cy="32.5" r="30" />
+                  </svg>
+                  <div class="progress-text" id="progress-doc-text">6</div>
+                </div>
+              </div>
+
+              <!-- Metric 3: Skills -->
+              <div class="metric-card floating-card">
+                <div class="metric-details">
+                  <h4>Kỹ năng số</h4>
+                  <div class="metric-value" id="counter-skills" data-val="7">0</div>
+                </div>
+                <div class="progress-circle-container">
+                  <svg class="progress-circle-svg" width="65" height="65">
+                    <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
+                    <circle class="progress-circle-fill" id="circle-skills" cx="32.5" cy="32.5" r="30" />
+                  </svg>
+                  <div class="progress-text">7/7</div>
+                </div>
+              </div>
+
+              <!-- Metric 4: Progress -->
+              <div class="metric-card floating-card">
+                <div class="metric-details">
+                  <h4>Tiến độ học tập</h4>
+                  <div class="metric-value" id="counter-progress" data-val="100">0</div>
+                </div>
+                <div class="progress-circle-container">
+                  <svg class="progress-circle-svg" width="65" height="65">
+                    <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
+                    <circle class="progress-circle-fill" id="circle-progress" cx="32.5" cy="32.5" r="30" />
+                  </svg>
+                  <div class="progress-text">100%</div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Dashboard Cards (Metrics) -->
-        <div class="metrics-grid">
-          <!-- Metric 1: Assignments -->
-          <div class="metric-card floating-card">
-            <div class="metric-details">
-              <h4>Bài tập nộp</h4>
-              <div class="metric-value" id="counter-assignments" data-val="6">0</div>
-            </div>
-            <div class="progress-circle-container">
-              <svg class="progress-circle-svg" width="65" height="65">
-                <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
-                <circle class="progress-circle-fill" id="circle-assignments" cx="32.5" cy="32.5" r="30" />
-              </svg>
-              <div class="progress-text">6/6</div>
-            </div>
-          </div>
-
-          <!-- Metric 2: Documents -->
-          <div class="metric-card floating-card">
-            <div class="metric-details">
-              <h4>Tài liệu Hub</h4>
-              <div class="metric-value" id="counter-documents" data-val="6">0</div>
-            </div>
-            <div class="progress-circle-container">
-              <svg class="progress-circle-svg" width="65" height="65">
-                <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
-                <circle class="progress-circle-fill" id="circle-documents" cx="32.5" cy="32.5" r="30" />
-              </svg>
-              <div class="progress-text" id="progress-doc-text">6</div>
-            </div>
-          </div>
-
-          <!-- Metric 3: Skills -->
-          <div class="metric-card floating-card">
-            <div class="metric-details">
-              <h4>Kỹ năng số</h4>
-              <div class="metric-value" id="counter-skills" data-val="7">0</div>
-            </div>
-            <div class="progress-circle-container">
-              <svg class="progress-circle-svg" width="65" height="65">
-                <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
-                <circle class="progress-circle-fill" id="circle-skills" cx="32.5" cy="32.5" r="30" />
-              </svg>
-              <div class="progress-text">7/7</div>
-            </div>
-          </div>
-
-          <!-- Metric 4: Progress -->
-          <div class="metric-card floating-card">
-            <div class="metric-details">
-              <h4>Tiến độ học tập</h4>
-              <div class="metric-value" id="counter-progress" data-val="100">0</div>
-            </div>
-            <div class="progress-circle-container">
-              <svg class="progress-circle-svg" width="65" height="65">
-                <circle class="progress-circle-bg" cx="32.5" cy="32.5" r="30" />
-                <circle class="progress-circle-fill" id="circle-progress" cx="32.5" cy="32.5" r="30" />
-              </svg>
-              <div class="progress-text">100%</div>
+          <div class="control-center-right">
+            <!-- Hồ Sơ Cá Nhân Card -->
+            <div class="student-profile-card">
+              <div class="profile-card-header">
+                <div class="profile-card-subtitle">HỒ SƠ CÁ NHÂN</div>
+                <h3 class="profile-card-title">Thông tin sinh viên</h3>
+              </div>
+              <div class="profile-card-avatar-section">
+                <div class="profile-card-avatar-wrapper">
+                  <img src="img/avt.jpg" alt="Nguyễn Trường An" class="profile-card-avatar" id="card-avatar" onerror="this.style.display='none'; document.getElementById('card-avatar-fallback').style.display='flex'">
+                  <div class="profile-avatar-fallback welcome-avatar" id="card-avatar-fallback" style="display:none; width:120px; height:120px; border-radius:16px; align-items:center; justify-content:center; color:#fff; font-size:2.5rem; border:none;" aria-hidden="true">TA</div>
+                </div>
+              </div>
+              <div class="profile-card-info-list">
+                <div class="profile-info-row">
+                  <span class="info-label">Họ và tên</span>
+                  <span class="info-value" id="card-name">Nguyễn Trường An</span>
+                </div>
+                <div class="profile-info-row">
+                  <span class="info-label">Ngành học</span>
+                  <span class="info-value" id="card-major">Kỹ thuật Máy tính</span>
+                </div>
+                <div class="profile-info-row">
+                  <span class="info-label">Trường</span>
+                  <span class="info-value" id="card-school">Trường Đại học Công nghệ - VNU</span>
+                </div>
+                <div class="profile-info-row">
+                  <span class="info-label">Email</span>
+                  <span class="info-value" id="card-email">25020440@vnu.edu.vn</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

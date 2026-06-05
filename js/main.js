@@ -16,7 +16,7 @@ const FALLBACK_DATA = {
     "course": "Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo",
     "avatar": "img/avt.jpg",
     "status": "Hoàn thành 100% chương trình học tập",
-    "role": "Học viên xuất sắc & Nhà phát triển tương lai",
+    "role": "Nhà phát triển tương lai",
     "email": "25020440@vnu.edu.vn",
     "github": "https://github.com/nguyen-truong-an",
     "linkedin": "https://linkedin.com/in/nguyen-truong-an"

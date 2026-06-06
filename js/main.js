@@ -92,9 +92,9 @@ const FALLBACK_DATA = {
         "Tóm tắt nội dung chính của các bài báo, sách chuyên khảo tiêu biểu và xuất danh mục tài liệu tham khảo theo Harvard Style."
       ],
       "evidence": [
-        { "title": "Ma trận CRAAP Đánh giá Nguồn tin", "type": "matrix", "dataId": "craap-matrix" },
-        { "title": "Cú pháp Tìm kiếm Nâng cao", "type": "code", "dataId": "boolean-query" },
-        { "title": "Bản đồ Nguồn tin Khoa học", "type": "graph", "dataId": "citation-map" }
+        { "title": "Bảng tổng hợp & đánh giá 10 nguồn tài liệu", "type": "image", "dataId": "img/evidence_2_1.png" },
+        { "title": "Kết quả truy vấn trên cơ sở dữ liệu học thuật", "type": "image", "dataId": "img/evidence_2_2.png" },
+        { "title": "Danh mục tài liệu tham khảo (Harvard Style)", "type": "image", "dataId": "img/evidence_2_3.png" }
       ],
       "documents": [
         { "name": "Báo cáo Bài tập 2.pdf", "path": "Baitap/Bai2/bai2.pdf", "size": "341 KB" }
@@ -120,9 +120,9 @@ const FALLBACK_DATA = {
         "Đúc rút các mẹo thực chiến viết prompt như quy chuẩn định dạng Markdown, LaTeX cho công thức toán học và thiết lập phản hồi tương tác."
       ],
       "evidence": [
-        { "title": "Sơ đồ Phân nhánh Trí tuệ Nhân tạo", "type": "diagram", "dataId": "ai-branches" },
-        { "title": "Ma trận Thử nghiệm Prompt", "type": "table", "dataId": "prompt-testing" },
-        { "title": "Hệ thống Mẫu Prompt Học tập", "type": "code", "dataId": "prompt-templates" }
+        { "title": "Vận dụng 4 nguyên tắc cốt lõi (Context, Clear, Concise, Constraint) trong quá trình thiết kế các câu lệnh đầu vào. Việc xác định rõ ngữ cảnh (tài liệu Calculus 2) và ràng buộc định dạng (LaTeX, Markdown) là bước nền tảng giúp AI hiểu đúng nhiệm vụ học tập ngay từ lần truy vấn đầu tiên.", "type": "image", "dataId": "img/evidence_3_1.png" },
+        { "title": "Áp dụng kỹ thuật Role Prompting (\"Bạn là chuyên gia toán học\") và Chain-of-Thought (yêu cầu giải thích từng bước tư duy). Kỹ thuật này giúp chuyển đổi từ các câu hỏi cơ bản sang giải quyết các bài toán Giải tích 2 phức tạp, đảm bảo tính logic và tránh các lỗi sai sót trong suy luận của AI.", "type": "image", "dataId": "img/evidence_3_2.png" },
+        { "title": "Thực hiện so sánh A/B Testing giữa các phiên bản prompt khác nhau. Kết quả phân tích lỗi (hallucination) và tinh chỉnh dựa trên kỹ thuật Few-shot Prompting đã giúp tối ưu hóa độ chính xác của phản hồi, biến AI từ một công cụ trả lời chung chung thành một trợ lý học tập có tính chuyên môn cao.", "type": "image", "dataId": "img/evidence_3_3.png" }
       ],
       "documents": [
         { "name": "Báo cáo Bài tập 3.pdf", "path": "Baitap/Bai3/bai3.pdf", "size": "858 KB" }

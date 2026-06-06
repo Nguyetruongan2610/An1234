@@ -140,9 +140,9 @@
         "Tổ chức kênh giao tiếp bất đồng bộ qua Discord và đánh giá hiệu quả phối hợp công cụ cuối chu kỳ dự án."
       ],
       "evidence": [
-        { "title": "Xây dựng hệ thống quản lý dữ liệu học thuật phân tầng (Directory Tree), áp dụng quy tắc đặt tên file nhất quán giúp tối ưu hóa thời gian tìm kiếm và kiểm soát phiên bản tài liệu.", "type": "image", "dataId": "img/evidence_4_3.png" },
+        { "title": "Thiết lập kênh giao tiếp đa phương thức: Kết hợp trao đổi nhanh qua Zalo và họp trực tuyến qua Google Meet để giải quyết vấn đề kịp thời, đảm bảo dự án luôn hoàn thành trước thời hạn với chất lượng tối ưu.", "type": "image", "dataId": "img/evidence_4_1.png" },
         { "title": "Ứng dụng công cụ soạn thảo cộng tác (Google Docs) để làm việc đồng thời, loại bỏ sự chồng chéo của các phiên bản tài liệu rời rạc, đảm bảo tính đồng bộ và minh bạch trong quy trình làm việc nhóm.", "type": "image", "dataId": "img/evidence_4_2.png" },
-        { "title": "Thiết lập kênh giao tiếp đa phương thức: Kết hợp trao đổi nhanh qua Zalo và họp trực tuyến qua Google Meet để giải quyết vấn đề kịp thời, đảm bảo dự án luôn hoàn thành trước thời hạn với chất lượng tối ưu.", "type": "image", "dataId": "img/evidence_4_3.png" }
+        { "title": "Xây dựng hệ thống quản lý dữ liệu học thuật phân tầng (Directory Tree), áp dụng quy tắc đặt tên file nhất quán giúp tối ưu hóa thời gian tìm kiếm và kiểm soát phiên bản tài liệu.", "type": "image", "dataId": "img/evidence_4_3.png" }
       ],
       "documents": [
         { "name": "Báo cáo Bài tập 4.pdf", "path": "Baitap/Bai4/bai4.pdf", "size": "4.73 MB" }

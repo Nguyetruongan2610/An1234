@@ -148,9 +148,9 @@ const FALLBACK_DATA = {
         "Tổ chức kênh giao tiếp bất đồng bộ qua Discord và đánh giá hiệu quả phối hợp công cụ cuối chu kỳ dự án."
       ],
       "evidence": [
-        { "title": "Bảng Kanban Quản lý Học tập Nhóm", "type": "kanban", "dataId": "interactive-kanban-board" },
-        { "title": "Biểu đồ Phân bổ Vai trò RACI", "type": "table", "dataId": "raci-table" },
-        { "title": "Sơ đồ Luồng Giao tiếp Số", "type": "chart", "dataId": "collaboration-flow" }
+        { "title": "Xây dựng hệ thống quản lý dữ liệu học thuật phân tầng (Directory Tree), áp dụng quy tắc đặt tên file nhất quán giúp tối ưu hóa thời gian tìm kiếm và kiểm soát phiên bản tài liệu.", "type": "image", "dataId": "img/evidence_4_3.png" },
+        { "title": "Ứng dụng công cụ soạn thảo cộng tác (Google Docs) để làm việc đồng thời, loại bỏ sự chồng chéo của các phiên bản tài liệu rời rạc, đảm bảo tính đồng bộ và minh bạch trong quy trình làm việc nhóm.", "type": "image", "dataId": "img/evidence_4_2.png" },
+        { "title": "Thiết lập kênh giao tiếp đa phương thức: Kết hợp trao đổi nhanh qua Zalo và họp trực tuyến qua Google Meet để giải quyết vấn đề kịp thời, đảm bảo dự án luôn hoàn thành trước thời hạn với chất lượng tối ưu.", "type": "image", "dataId": "img/evidence_4_3.png" }
       ],
       "documents": [
         { "name": "Báo cáo Bài tập 4.pdf", "path": "Baitap/Bai4/bai4.pdf", "size": "4.73 MB" }
@@ -176,9 +176,9 @@ const FALLBACK_DATA = {
         "Xuất bản ấn phẩm truyền thông số và viết báo cáo đánh giá trải nghiệm kết hợp các công cụ AI."
       ],
       "evidence": [
-        { "title": "Bộ sưu tập Ấn phẩm Thiết kế Số", "type": "gallery", "dataId": "design-gallery-view" },
-        { "title": "Sơ đồ Tư duy Thiết kế (Design Thinking)", "type": "diagram", "dataId": "design-thinking-process" },
-        { "title": "Phân tích Bố cục Lưới & Màu sắc", "type": "chart", "dataId": "grid-color-analysis" }
+        { "title": "Infographic hoàn chỉnh về 'Tác động của AI đến việc học của sinh viên', thể hiện 5 ý chính: Hỗ trợ học tập thông minh, Tăng hiệu suất, Thúc đẩy sáng tạo, Nguy cơ phụ thuộc và Cơ hội phát triển kỹ năng. Sản phẩm là kết quả của việc kết hợp hài hòa giữa nội dung học thuật và thiết kế trực quan hiện đại", "type": "image", "dataId": "img/evidence_5_1.png" },
+        { "title": "Quy trình Prompt Engineering ứng dụng 2 nhóm công cụ: Sử dụng ChatGPT để hình thành ý tưởng, xây dựng dàn ý logic và DALL-E để trực quan hóa các khái niệm trừu tượng. Ảnh minh họa do AI tạo ra đảm bảo tính độc đáo và bám sát ngữ cảnh sinh viên Việt Nam.", "type": "image", "dataId": "img/evidence_5_2.png" },
+        { "title": "Báo cáo phân tích trải nghiệm sử dụng Canva AI để hoàn thiện sản phẩm theo quy chuẩn Grid System và bảng màu công nghệ. Phần đánh giá nêu rõ sự phân tầng của hệ sinh thái AI trong chuỗi giá trị sáng tạo nội dung: từ định hướng tư duy (ChatGPT) đến hoàn thiện trải nghiệm thị giác (Canva AI).", "type": "image", "dataId": "img/evidence_5_3.png" }
       ],
       "documents": [
         { "name": "Báo cáo Bài tập 5.pdf", "path": "Baitap/Bai5/bai5.pdf", "size": "676 KB" }
@@ -204,9 +204,9 @@ const FALLBACK_DATA = {
         "Lập bộ 7 nguyên tắc cá nhân và thiết kế Infographic tổng kết chính sách sử dụng AI có trách nhiệm."
       ],
       "evidence": [
-        { "title": "7 Nguyên tắc Đạo đức AI", "type": "list", "dataId": "ethics-principles" },
-        { "title": "Mẫu Hướng dẫn Trích dẫn Nguồn AI", "type": "table", "dataId": "ai-citation-guide" },
-        { "title": "Sơ đồ Quy trình Kiểm tra Liêm chính", "type": "chart", "dataId": "integrity-check" }
+        { "title": "Khung đạo đức số & Cam kết trách nhiệm AI", "type": "image", "dataId": "img/evidence_6_1.png" },
+        { "title": "Quy chuẩn minh bạch & Hệ thống trích dẫn AI (APA)", "type": "image", "dataId": "img/evidence_6_2.png" },
+        { "title": "Quy trình tối ưu hóa & Kiểm soát Liêm chính học thuật", "type": "image", "dataId": "img/evidence_6_3.png" }
       ],
       "documents": [
         { "name": "Báo cáo Bài tập 6.pdf", "path": "Baitap/Bai6/bai6.pdf", "size": "1.25 MB" }

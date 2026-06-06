@@ -20,7 +20,7 @@ const FALLBACK_DATA = {
     "email": "25020440@vnu.edu.vn",
     "github": "https://github.com/nguyen-truong-an",
     "linkedin": "https://linkedin.com/in/nguyen-truong-an",
-    "hobbies": "thích chơi thể thao, đọc sách, thích tìm tòi những thứ mới",
+    "hobbies": "Thích chơi thể thao, đọc sách, thích tìm tòi những thứ mới",
     "motto": "\"Success is the sum of small efforts, repeated day in and day out\""
   },
   "metrics": {

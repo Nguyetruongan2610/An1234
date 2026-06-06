@@ -19,7 +19,9 @@ const FALLBACK_DATA = {
     "role": "",
     "email": "25020440@vnu.edu.vn",
     "github": "https://github.com/nguyen-truong-an",
-    "linkedin": "https://linkedin.com/in/nguyen-truong-an"
+    "linkedin": "https://linkedin.com/in/nguyen-truong-an",
+    "hobbies": "thích chơi thể thao, đọc sách, thích tìm tòi những thứ mới",
+    "motto": "\"Success is the sum of small efforts, repeated day in and day out\""
   },
   "metrics": {
     "assignments": 6,
@@ -358,12 +360,16 @@ function renderProfileData() {
   const cardMajor = document.getElementById("card-major");
   const cardSchool = document.getElementById("card-school");
   const cardEmail = document.getElementById("card-email");
+  const cardHobbies = document.getElementById("card-hobbies");
+  const cardMotto = document.getElementById("card-motto");
 
   if (cardName) cardName.textContent = p.name;
   if (cardMsv) cardMsv.textContent = p.studentId;
   if (cardMajor) cardMajor.textContent = p.major;
   if (cardSchool) cardSchool.textContent = p.school;
   if (cardEmail) cardEmail.textContent = p.email;
+  if (cardHobbies) cardHobbies.textContent = p.hobbies || "";
+  if (cardMotto) cardMotto.textContent = p.motto || "";
 }
 
 function renderOverview() {

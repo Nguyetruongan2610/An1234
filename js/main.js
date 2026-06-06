@@ -64,9 +64,9 @@ const FALLBACK_DATA = {
         "Thực hiện các lệnh sao chép (Ctrl+C), di chuyển (Ctrl+X, Ctrl+V), xóa tệp và thực nghiệm khôi phục từ Recycle Bin hoặc xóa vĩnh viễn (Shift+Delete)."
       ],
       "evidence": [
-        { "title": "Sơ đồ Kiến trúc Von Neumann", "type": "diagram", "dataId": "von-neumann" },
-        { "title": "Bảng So sánh Linh kiện Phần cứng", "type": "table", "dataId": "components-table" },
-        { "title": "Mô phỏng Luồng Dữ liệu I/O", "type": "chart", "dataId": "io-flow" }
+        { "title": "Phân tích tài nguyên hệ thống thực tế trên thiết bị cá nhân, chứng minh khả năng giám sát và quản lý hiệu năng phần cứng trong quá trình thực thi các tác vụ kỹ thuật nặng.", "type": "image", "dataId": "img/evidence_1.png" },
+        { "title": "Thông số kỹ thuật thực tế (CPU Intel Core i5-12450HX, RAM 16.0 GB) được trích xuất trực tiếp từ môi trường hệ thống, minh chứng cho năng lực khai thác thông tin thiết bị chuẩn kỹ thuật.", "type": "image", "dataId": "img/evidence_2.png" },
+        { "title": "Trực quan hóa cấu trúc thư mục học tập chuẩn hóa, thể hiện tư duy khoa học trong quản trị dữ liệu số và quy trình làm việc trên Hệ điều hành Windows.", "type": "image", "dataId": "img/evidence_3.png" }
       ],
       "documents": [
         { "name": "Báo cáo Bài tập 1.pdf", "path": "Baitap/Bai1/bai1.pdf", "size": "483 KB" }
@@ -621,7 +621,7 @@ function renderModules() {
               ${mod.evidence.map((ev, evIdx) => `
                 <div class="evidence-card floating-card" data-mod="${mod.id}" data-ev-idx="${evIdx}">
                   <div class="evidence-icon">
-                    ${renderSvgIllustration(mod.id, ev.dataId)}
+                    ${ev.type === "image" ? `<img src="${ev.dataId}" alt="${ev.title}" style="width: 100%; height: 100%; object-fit: cover;">` : renderSvgIllustration(mod.id, ev.dataId)}
                   </div>
                   <span>${ev.title}</span>
                 </div>
@@ -1064,7 +1064,11 @@ function initLightbox() {
     const moduleObj = AppData.modules.find(m => m.id === modId);
     if (moduleObj && moduleObj.evidence[evIdx]) {
       const evidenceData = moduleObj.evidence[evIdx];
-      openLightbox(evidenceData.title, renderSvgIllustration(modId, evidenceData.dataId));
+      if (evidenceData.type === "image") {
+        openLightbox(evidenceData.title, `<img src="${evidenceData.dataId}" alt="${evidenceData.title}" style="max-width: 100%; max-height: 80vh; object-fit: contain; border-radius: 8px;">`);
+      } else {
+        openLightbox(evidenceData.title, renderSvgIllustration(modId, evidenceData.dataId));
+      }
     }
   });
 }
